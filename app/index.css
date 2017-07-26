@@ -88,6 +88,10 @@ body {
   border: 1px solid white;
 }
 
+.button-wrapper button {
+  text-transform: capitalize;
+}
+
 .btn-tweet {
   padding: 10px 25px;
   background-color: #EC4972;
