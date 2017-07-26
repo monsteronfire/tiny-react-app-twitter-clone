@@ -1,11 +1,15 @@
 import React from 'react';
 
-class NavMenu extends React.Component {
-  render() {
-    return (
-      <div className='nav-menu-wrapper'>menu nav</div>
-    )
-  }
+function NavMenu () {
+  return (
+    <div className='nav-menu-wrapper'>
+      <ul>
+        <li>Home</li>
+        <li>Notifications</li>
+        <li>Messages</li>
+      </ul>
+    </div>
+  )
 }
 
 export default NavMenu;
