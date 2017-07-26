@@ -17,7 +17,7 @@ class Nav extends React.Component {
 
         <div className='nav-right'>
           <SearchBar/>
-          <DisplayPicture/>
+          <DisplayPicture image={this.props.image}/>
           <TweetButton/>
         </div>
       </nav>

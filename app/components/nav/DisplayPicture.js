@@ -1,13 +1,9 @@
 import React from 'react';
 
-const image = {
-  url: 'app/images/profile-picture.jpg'
-};
-
-function DisplayPicture () {
+function DisplayPicture (props) {
   return (
     <div className='display-picture-wrapper'>
-      <img src={image.url} className='dp dp-small' />
+      <img src={props.image.url} className='dp dp-small' />
     </div>
   )
 }
