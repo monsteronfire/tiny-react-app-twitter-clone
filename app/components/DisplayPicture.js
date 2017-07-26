@@ -1,8 +1,14 @@
 import React from 'react';
 
+const image = {
+  url: 'app/images/profile-picture.jpg'
+};
+
 function DisplayPicture () {
   return (
-    <img/>
+    <div className='display-picture-wrapper'>
+      <img src={image.url} className='dp dp-small' />
+    </div>
   )
 }
 

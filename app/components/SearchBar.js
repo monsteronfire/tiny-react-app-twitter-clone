@@ -5,7 +5,8 @@ class SearchBar extends React.Component {
     return (
       <div className='search-wrapper'>
         <form>
-          <input/>
+          <input placeholder='Search'/>
+          <i className='fa fa-search'></i>
         </form>
       </div>
     )

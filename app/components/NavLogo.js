@@ -3,7 +3,7 @@ import React from 'react';
 function NavLogo () {
   return (
     <div className='nav-logo-wrapper'>
-      nav logo
+      <i className="fa fa-twitter"></i>
     </div>
   )
 }
