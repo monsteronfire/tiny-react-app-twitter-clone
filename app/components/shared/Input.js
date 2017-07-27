@@ -18,11 +18,14 @@ class Input extends React.Component {
 
   render() {
     return (
-      <input
-       type='text'
-       value={this.state.name}
-       onChange={this.handleChange}
-      />
+      <label>
+        {this.props.label}
+        <input
+         type='text'
+         value={this.state.name}
+         onChange={this.handleChange}
+       />
+     </label>
     )
   }
 }
