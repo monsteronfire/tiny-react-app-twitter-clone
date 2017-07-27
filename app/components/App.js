@@ -3,16 +3,20 @@ import Nav from './nav/Nav';
 import Profile from './profile/Profile';
 import { NavLink } from 'react-router-dom';
 
-const image = {
+const dpImage = {
   url: 'app/images/profile-picture.jpg'
+};
+
+const header = {
+  url: 'app/images/header-image.jpg'
 };
 
 class App extends React.Component {
   render() {
     return (
       <div className='main-wrapper'>
-        <Nav image={image} />
-        <Profile/>
+        <Nav dpImage={dpImage} />
+        <Profile dpImageSize='large' dpImage={dpImage} header={header} />
       </div>
     )
   }

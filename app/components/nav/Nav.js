@@ -2,7 +2,7 @@ import React from 'react';
 import NavMenu from './NavMenu';
 import NavLogo from './NavLogo';
 import SearchBar from './SearchBar';
-import DisplayPicture from './DisplayPicture';
+import DisplayPicture from '../shared/DisplayPicture';
 import Button from '../shared/Button';
 
 class Nav extends React.Component {
@@ -17,7 +17,7 @@ class Nav extends React.Component {
 
         <div className='nav-right'>
           <SearchBar/>
-          <DisplayPicture image={this.props.image}/>
+          <DisplayPicture size='small' dpImage={this.props.dpImage}/>
           <Button text='tweet'/>
         </div>
       </nav>
