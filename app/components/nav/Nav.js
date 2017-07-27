@@ -3,7 +3,7 @@ import NavMenu from './NavMenu';
 import NavLogo from './NavLogo';
 import SearchBar from './SearchBar';
 import DisplayPicture from './DisplayPicture';
-import Button from '../Button';
+import Button from '../shared/Button';
 
 class Nav extends React.Component {
   render() {
