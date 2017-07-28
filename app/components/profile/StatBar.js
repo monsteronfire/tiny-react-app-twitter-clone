@@ -6,8 +6,10 @@ class StatBar extends React.Component {
   render() {
     return (
       <div className='stat-bar-wrapper'>
-        <StatCounter/>
-        <Button text='edit'/>
+        <div className='row'>
+          <StatCounter/>
+          <Button text='edit'/>
+        </div>
       </div>
     )
   }

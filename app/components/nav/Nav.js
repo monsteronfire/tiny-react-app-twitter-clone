@@ -9,16 +9,18 @@ class Nav extends React.Component {
   render() {
     return (
       <nav className='nav-wrapper'>
-        <div className='nav-left'>
-          <NavMenu/>
-        </div>
+        <div className='row'>
+          <div className='nav-left'>
+            <NavMenu/>
+          </div>
 
-        <NavLogo/>
+          <NavLogo/>
 
-        <div className='nav-right'>
-          <SearchBar/>
-          <DisplayPicture size='small' dpImage={this.props.dpImage}/>
-          <Button text='tweet'/>
+          <div className='nav-right'>
+            <SearchBar/>
+            <DisplayPicture size='small' dpImage={this.props.dpImage}/>
+            <Button text='tweet'/>
+          </div>
         </div>
       </nav>
     )
