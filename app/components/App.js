@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './nav/Nav';
 import Profile from './profile/Profile';
+import MainContent from './MainContent';
 import { NavLink } from 'react-router-dom';
 
 const dpImage = {
@@ -17,6 +18,7 @@ class App extends React.Component {
       <div className='main-wrapper'>
         <Nav dpImage={dpImage} />
         <Profile dpImageSize='large' dpImage={dpImage} header={header} />
+        <MainContent/>
       </div>
     )
   }
