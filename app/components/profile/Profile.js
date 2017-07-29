@@ -8,7 +8,9 @@ class Profile extends React.Component {
     return (
       <div className='profile-wrapper'>
         <HeaderImage header={this.props.header} />
-        <DisplayPicture size='large' dpImage={this.props.dpImage}/>
+        <div className='row'>
+          <DisplayPicture size='large' dpImage={this.props.dpImage}/>
+        </div>
         <StatBar/>
       </div>
     )
