@@ -1,5 +1,4 @@
 import React from 'react';
-import Sidebar from '../sidebar/Sidebar';
 
 class MainFeed extends React.Component {
   render() {
