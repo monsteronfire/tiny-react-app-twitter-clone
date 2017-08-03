@@ -15,13 +15,24 @@ const activity = {
   days: '28'
 };
 
+const suggestionsAPI = {
+  suggestions: [
+    { name: 'Tom', handle: '@tom' },
+    { name: 'Dick', handle: '@dick' },
+    { name: 'Harry', handle: '@harry' }
+  ],
+  all: function () {
+    return this.suggestions;
+  },
+};
+
 class Sidebar extends React.Component {
   render() {
     return (
       <aside className='sidebar-wrapper'>
         <Bio profile={profile} />
         <TweetActivity activity={activity} />
-        <FollowSuggestions/>
+        <FollowSuggestions suggestionsapi={suggestionsAPI}/>
         <TrendList/>
       </aside>
     )
