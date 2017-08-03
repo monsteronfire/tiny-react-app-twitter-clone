@@ -10,12 +10,17 @@ const profile = {
   bio: 'I didn\'t choose the kitty life, the kitty life chose me!'
 };
 
+const activity = {
+  impressions: '1263',
+  days: '28'
+};
+
 class Sidebar extends React.Component {
   render() {
     return (
       <aside className='sidebar-wrapper'>
         <Bio profile={profile} />
-        <TweetActivity/>
+        <TweetActivity activity={activity} />
         <FollowSuggestions/>
         <TrendList/>
       </aside>
