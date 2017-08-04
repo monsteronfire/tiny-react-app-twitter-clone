@@ -2,7 +2,8 @@ import React from 'react';
 
 function SuggestionItem(props) {
   return (
-    <div>suggestion item</div>
+    <div class='suggestion-item-wrapper'>suggestion item</div>
+    <img />
   )
 }
 
