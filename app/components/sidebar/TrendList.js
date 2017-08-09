@@ -1,4 +1,5 @@
 import React from 'react';
+import TrendItem from './TrendItem';
 
 class TrendList extends React.Component {
   render() {
@@ -7,8 +8,7 @@ class TrendList extends React.Component {
         <h3>Trends for you</h3>
         <ul>
           <li>
-            <p>#hashtag</p>
-            <p>8964K Tweets</p>
+            <TrendItem/>
           </li>
         </ul>
       </div>

@@ -4,7 +4,8 @@ class TrendItem extends React.Component {
   render() {
     return (
       <div className='trend-item-wrapper'>
-        trenditem
+        <p className='trending-hashtag'>#hashtag</p>
+        <p className='trending-count'>8648K tweets</p>
       </div>
     )
   }
