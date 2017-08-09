@@ -7,11 +7,6 @@ class FollowSuggestions extends React.Component {
       <div className='follow-suggestions-wrapper'>
         <h3>Who to follow</h3>
         <ul>
-          {
-            this.props.suggestionsapi.all.map(function(s) {
-              s.name
-            })
-          }
         </ul>
       </div>
     )
